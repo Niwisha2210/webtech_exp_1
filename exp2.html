@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Recipe</title>
+</head>
+<body bgcolor="#F5F1E8">
+<center>
+    <h1><font color="#556B2F">COOKING RECIPES SITE</font></h1>
+    <h2><font color="#6B8E23">Add Your Recipe</font></h2>
+    <table width="85%" cellpadding="20" bgcolor="white" border="1">
+        <tr>
+            <td width="35%" align="center" bgcolor="#E8EBD8">
+                <img src="Gemini_Generated_Image_fh7ubgfh7ubgfh7u.png" width="500" height="400">
+                <h2>
+                    <font color="#556B2F">
+                        Cook. Share. Enjoy.
+                    </font>
+                </h2>
+                <p>
+                    <font color="#555555">
+                        Share your favourite recipes
+                        with everyone!
+                    </font>
+                </p>
+
+            </td>
+            <td width="65%" align="left">
+                <form action="#" method="post"
+                      enctype="multipart/form-data">
+                    <table cellpadding="8" width="100%">
+                        <tr>
+                            <td><b>Recipe Title</b></td>
+                            <td>
+                                <input type="text"
+                                       name="title"
+                                       placeholder="Enter recipe title"
+                                       size="35"
+                                       required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Recipe Category</b></td>
+                            <td>
+                                <select name="category">
+                                    <option>Select Category</option>
+                                    <option>Breakfast</option>
+                                    <option>Lunch</option>
+                                    <option>Dinner</option>
+                                    <option>Snacks</option>
+                                    <option>Dessert</option>
+                                    <option>Beverage</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Cuisine</b></td>
+                            <td>
+                                <select name="cuisine">
+                                    <option>Select Cuisine</option>
+                                    <option>Indian</option>
+                                    <option>Italian</option>
+                                    <option>Chinese</option>
+                                    <option>Mexican</option>
+                                    <option>Thai</option>
+                                    <option>Continental</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Ingredients</b></td>
+                            <td>
+                                <textarea rows="5"
+                                          cols="35"
+                                          name="ingredients"
+                                          placeholder="Enter ingredients"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Preparation Steps</b></td>
+                            <td>
+                                <textarea rows="5"
+                                          cols="35"
+                                          name="steps"
+                                          placeholder="Enter preparation steps"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Preparation Time</b></td>
+                            <td>
+                                <input type="text"
+                                       name="prep_time"
+                                       placeholder="Example: 15 minutes">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Cooking Time</b></td>
+                            <td>
+                                <input type="text"
+                                       name="cook_time"
+                                       placeholder="Example: 30 minutes">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Servings</b></td>
+                            <td>
+                                <input type="number"
+                                       name="servings"
+                                       min="1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Difficulty Level</b></td>
+                            <td>
+                                <select name="difficulty">
+                                    <option>Easy</option>
+                                    <option>Medium</option>
+                                    <option>Hard</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Upload Recipe Image</b></td>
+                            <td>
+                                <input type="file"
+                                       name="image">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Recipe Video Link</b></td>
+                            <td>
+                                <input type="url"
+                                       name="video"
+                                       size="35"
+                                       placeholder="https://...">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Tags</b></td>
+                            <td>
+                                <input type="text"
+                                       name="tags"
+                                       size="35"
+                                       placeholder="Healthy, Spicy">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+
+                                <input type="submit"
+                                       value="Add Recipe">
+                                <input type="reset"
+                                       value="Reset">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <p>
+        <font color="#556B2F">
+            <b>Happy Cooking!</b>
+        </font>
+    </p>
+</center>
+</body>
+</html>
